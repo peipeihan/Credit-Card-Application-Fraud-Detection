@@ -1,4 +1,4 @@
-#setwd('/Users/riyueyoutu/Desktop/Application-Fraud-Detection/')
+
 library(dplyr)
 library(lubridate)
 library(data.table)
@@ -6,7 +6,7 @@ library(stringr)
 library(ggplot2)
 library(h2o)
 
-setwd("C:/Users/peipe/Desktop/562/Project2")
+setwd("C:/Users/peipe/Desktop/Project")
 app = read.csv('applications100k.csv')
 
 # adding leading zeros in ssn,zip, homephone fields.
